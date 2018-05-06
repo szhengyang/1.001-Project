@@ -2,7 +2,9 @@
 
 To test the product locally:
 
-1. In the node.js terminal, run node --max-old-space-size=8192 app.js 
+1. Unzip the 'Code' folder. Enter the 'Final' Folder and run npm install. 
+
+2. In the node.js terminal, run node --max-old-space-size=8192 app.js 
 
    In the console, look out for the message 'tree created'. Takes about 5 minutes. 
 
