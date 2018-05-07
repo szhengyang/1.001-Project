@@ -37,9 +37,9 @@
    To use regression model to generate predicted values using test sample. The predicted
    values will be subsequently compared with actual values using Tableau.  
 
-9. server.js
+9. app.js
 
-   There are 2 main purposes of the server.js file. The first is to allow the decision tree
+   There are 2 main purposes of the app.js(server) file. The first is to allow the decision tree
    model to run in the background, so that the user interface is ready for user input at 
    any time. The second is to receive form data from the user interface. Form data and 
    prediction results are output to 2 files in the 'sourcehtml' folder, prediction.js and
